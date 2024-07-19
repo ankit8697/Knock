@@ -19,7 +19,6 @@ func sendEmail() {
 			" variable to your email address.")
 		return
 	}
-	// wckfvsqeeosldsvy
 	pass, ok := os.LookupEnv("KNOCK_EMAIL_APP_PASSWORD")
 	if !ok {
 		log.Println("If you would like to get notified via email, please set the KNOCK_EMAIL_APP_PASSWORD " +
